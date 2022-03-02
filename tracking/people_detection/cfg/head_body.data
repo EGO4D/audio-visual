@@ -1,0 +1,6 @@
+classes = 2 
+train  = train/train.txt
+valid  = train/validate.txt
+names = data/head_body.names
+backup = backup
+
