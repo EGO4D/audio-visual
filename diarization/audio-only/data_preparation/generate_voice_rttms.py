@@ -50,7 +50,7 @@ def df2rttms(df, args):
                         if label != ":-1":  # Skip :-1 which refers to sources of noise
                             if start_time != end_time:
                                 rttm_lines.append(
-                                    "SPEAKER {} 1 {:.3f} {:.3f} <NA> <NA> {} <NA> <NA>".format(
+                                    "SPEAKER {} 1 {:.6f} {:.6f} <NA> <NA> {} <NA> <NA>".format(
                                         file_id,
                                         start_time,
                                         end_time - start_time,
@@ -81,14 +81,14 @@ def df2rttms(df, args):
                             continue
                         else:
                             print(
-                                f"{last_segment_start:.3f} {last_segment_end:.3f} speech",
+                                f"{last_segment_start:.6f} {last_segment_end:.6f} speech",
                                 file=lab_out_file,
                             )
                             last_segment_start = start
                             last_segment_end = end
                     if last_segment_end is not None:
                         print(
-                            f"{last_segment_start:.3f} {last_segment_end:.3f} speech",
+                            f"{last_segment_start:.6f} {last_segment_end:.6f} speech",
                             file=lab_out_file,
                         )
 
