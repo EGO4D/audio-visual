@@ -68,7 +68,7 @@ for file_no in video_nums:
     
     res = np.loadtxt(surrounding_people_audio_matching_results_dir + '/' + str(file_no) + '.txt')
     if len(res.shape) == 1:
-       res = np.expand_dims(res, 0)
+       res = np.expand_dims(res, 1)
 
     tlen = np.loadtxt(surrounding_people_audio_matching_results_dir + '/t' + str(file_no) + '.txt')
     if len(tlen.shape) == 1:
