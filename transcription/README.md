@@ -1,6 +1,6 @@
 # README for the transcription task
 Created on: Dec 10, 2021
-Last update : Feb 22, 2021
+Last update : Feb 22, 2022
 
 Requirements:
 - Install ffmpeg: https://ffmpeg.org/download.html
