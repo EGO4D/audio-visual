@@ -1,3 +1,10 @@
+**[NEW!] 2022 Ego4D Challenges now open**
+- [Audio-Video Diarization](https://eval.ai/web/challenges/challenge-page/1640/overview) (deadline Oct 1 2022)
+- [Audio Only Diarization](https://eval.ai/web/challenges/challenge-page/1641/overview) (deadline Oct 1 2022)
+- [AV Transcription](https://eval.ai/web/challenges/challenge-page/1637/overview) (deadline Oct 1 2022)
+- [AV Localization](https://eval.ai/web/challenges/challenge-page/1633/overview) (deadline Oct 1 2022)
+
+
 # EGO4D Audio Visual Diarization Benchmark
 
 The Audio-Visual Diarization (AVD) benchmark corresponds to characterizing _low-level_ information about conversational scenarios in the [EGO4D](https://ego4d-data.org/docs/) dataset.  This includes tasks focused on detection, tracking, segmentation of speakers and transcirption of speech content. To that end, we are proposing 4 tasks in this benchmark. 
